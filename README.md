@@ -1,11 +1,11 @@
-# 💰 React Expense Tracker
+#  React Expense Tracker
 
 A simple and beginner-friendly **Expense Tracker App** built using **React.js**.  
 You can **add, delete, and filter expenses by category**, and all data is saved in your browser’s **local storage**.
 
 ---
 
-## 🚀 Features
+##  Features
 - Add new expenses with title, amount, and category  
 - Filter expenses by category  
 - Delete any expense  
@@ -14,7 +14,7 @@ You can **add, delete, and filter expenses by category**, and all data is saved 
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 - React.js  
 - JavaScript (ES6)  
 - CSS3  
@@ -31,11 +31,11 @@ You can **add, delete, and filter expenses by category**, and all data is saved 
 ```bash
 cd react-expense-tracker
 ```
-3.Install dependencies
+## 3.Install dependencies
 ```bash
 npm install
 ```
-4.Run the app
+## 4.Run the app
 ```bash
 npm start
 ```
