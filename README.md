@@ -4,7 +4,8 @@ A simple and beginner-friendly **Expense Tracker App** built using **React.js**.
 You can **add, delete, and filter expenses by category**, and all data is saved in your browser’s **local storage**.
 
 ---
-
+# Live Demo
+https://expense-tracker-nu-silk-61.vercel.app/
 ##  Features
 - Add new expenses with title, amount, and category  
 - Filter expenses by category  
