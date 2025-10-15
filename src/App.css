@@ -1,0 +1,96 @@
+.app-container {
+  margin: 40px auto;
+  padding: 20px;
+  width: 600px;
+  background-color: #f8fafc;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  text-align: center;
+  font-style: italic;
+  color: #2563eb;
+}
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.expense-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.expense-form input,
+.expense-form select {
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+}
+.expense-form button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.expense-form button:hover {
+  background-color: #1e40af;
+}
+.error {
+  color: red;
+  text-align: center;
+}
+.expense-list {
+  margin-top: 20px;
+}
+.expense-item {
+  background-color: #ffffff;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expense-item h4 {
+  margin: 0;
+  color: #1e293b;
+}
+
+.expense-item p {
+  color: #475569;
+}
+
+.expense-item button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.expense-item button:hover {
+  background-color: #b91c1c;
+}
+.total {
+  text-align: center;
+  margin-top: 25px;
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+.no-expenses {
+  text-align: center;
+  color: #64748b;
+}
+
